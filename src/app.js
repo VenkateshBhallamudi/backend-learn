@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors"
 import cookieParser from "cookie-parser"
 
+console.log("Inside App.js")
+
 const app = express()
 
 app.use(cors({

@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 
+console.log("Inside db index.js")
 const connectDB = async () => {
     try {
         console.log(`Port: ${process.env.PORT}, Host: ${process.env.MONGODB_URI}`);
